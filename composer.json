@@ -9,7 +9,10 @@
     "autoload": {
         "psr-4": {
             "Kamal\\GoogleTrans\\": "src/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
