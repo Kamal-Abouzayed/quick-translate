@@ -1,0 +1,21 @@
+{
+    "name": "kamal/quick-translate",
+    "description": "Easily integrate Google Translate API with Laravel to automate multilingual translations across your app.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "stichoza/google-translate-php": "5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kamal\\GoogleTrans\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "KamalAbouzayed",
+            "email": "kamal.abouzayed@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
