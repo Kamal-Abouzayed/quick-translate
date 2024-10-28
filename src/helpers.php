@@ -1,6 +1,6 @@
 <?php
 
-use Kamal\QuickTranslate\QuickTranslate;
+use KamalAbouzayed\QuickTranslate\QuickTranslate;
 
 if (!function_exists('translate')) {
     /**

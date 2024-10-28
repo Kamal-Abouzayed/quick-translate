@@ -1,6 +1,6 @@
 <?php
 
-namespace Kamal\QuickTranslate;
+namespace KamalAbouzayed\QuickTranslate;
 
 class QuickTranslate
 {
