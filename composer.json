@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Kamal\\GoogleTrans\\": "src/"
+            "KamalAbouzayed\\QuickTranslate\\": "src/"
         },
         "files": [
             "src/helpers.php"
