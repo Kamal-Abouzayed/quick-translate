@@ -2,6 +2,8 @@
 
 namespace KamalAbouzayed\QuickTranslate;
 
+use Stichoza\GoogleTranslate\GoogleTranslate;
+
 class QuickTranslate
 {
     protected $translationsFile;
