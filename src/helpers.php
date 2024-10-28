@@ -12,6 +12,6 @@ if (!function_exists('translate')) {
      */
     function translate($word, $locale = null)
     {
-        return app(QuickTranslate::class)->translate($word, $locale);
+        return app(QuickTranslate::class)->transWord($word, $locale);
     }
 }
