@@ -13,7 +13,7 @@ class QuickTranslateServiceProvider extends ServiceProvider
         });
 
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/quick-translate.php',
+            __DIR__ . '/config/quick-translate.php',
             'quick-translate'
         );
     }
@@ -25,7 +25,7 @@ class QuickTranslateServiceProvider extends ServiceProvider
 
         // Publish config file
         $this->publishes([
-            __DIR__ . '/../config/quick-translate.php' => config_path('quick-translate.php'),
+            __DIR__ . '/config/quick-translate.php' => config_path('quick-translate.php'),
         ], 'config');
     }
 }
